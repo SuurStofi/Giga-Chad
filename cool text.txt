@@ -1,6 +1,6 @@
 _G.Enabled = true
 --local data = readfile("nframes/owl.txt")
-local data = game:HttpGet("https://raw.githubusercontent.com/SuurStofi/Shreck/main/frames.txt") -- giga chad
+local data = game:HttpGet("https://raw.githubusercontent.com/SuurStofi/Giga-Chad/main/frames.txt") -- giga chad
 
 function update(text)
     local args = {
@@ -54,7 +54,7 @@ local colours = {
 }
 
 function getcolorforrange(r, g, b)
-    local closestint = 100000
+    local closestint = 5000
     local closestcolour = ""
     
     for i, colour in pairs(colours) do
