@@ -1,6 +1,6 @@
 _G.Enabled = true
 --local data = readfile("nframes/owl.txt")
-local data = game:HttpGet("https://raw.githubusercontent.com/SuurStofi/Giga-Chad/main/frames.txt") -- giga chad
+local data = game:HttpGet("https://github.com/SuurStofi/Giga-Chad/blob/main/frames.txt") -- giga chad
 
 function update(text)
     local args = {
